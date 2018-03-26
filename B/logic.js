@@ -30,16 +30,16 @@ var card = function(word, id, isFaceUp) {
 
 //words array
 var words = [
-    "also",
-    "step",
-    "turn",
-    "roll",
-    "best",
-    "care",
-    "dear",
-    "from",
-    "push",
-    "ever"
+    "also".toUpperCase(),
+    "step".toUpperCase(),
+    "turn".toUpperCase(),
+    "roll".toUpperCase(),
+    "best".toUpperCase(),
+    "care".toUpperCase(),
+    "dear".toUpperCase(),
+    "from".toUpperCase(),
+    "push".toUpperCase(),
+    "ever".toUpperCase()
 ];
 
 var cards = [new card('temp')];
