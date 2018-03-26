@@ -1,37 +1,19 @@
-# coloredmemory
+group A : red
 
-The css can get repetitive so I use sass. Don't worry about learning it.
+group B : blue
 
-Do look up basics for jQuery because using just javascript to grab elements is
-hell.
+double click on game.html in corresponding folder
 
-***Don't feel obligated to learn all this in less than 24 hours. If it's too much
-don't worry about it.
+i used google chrome so that's what the instr are based off of
 
-we're recording the time (to the milliseconds) of when matches are made by printing
-to the console when two cards have been clicked, when the game starts, etc...
-
-our memory game:
-	need:
-		timer
-		max two cards shown at one time
-		start button that flips all cards at once
-		matching cards
+Game breakdown:
+	When ready press start
+	all cards will show for exactly 5 seconds then will disappear
+	click to get match
+	matches will stay visible
+	non matches disappear after 0.7s
 	
-	don't need:
-		a way to shuffle cards
-		restart
-		
-	more on the way
-
-tutorials:
-
-memory game tutorial with table of contents
-https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript
-
-just a memory game with code in html, css, and js
-https://codepen.io/natewiley/pen/HBrbL
-
-khan academy's article with the rules of the game in case anyone needs a refresher
-https://www.khanacademy.org/computing/computer-programming/programming-games-visualizations/memory-game/a/intro-to-memory
-
+	when all matches made the user's stats (# attempts, times of matches...) are
+	shown if you right click anywhere and choose inspect
+	
+	copy and paste to word doc with participant num and group
